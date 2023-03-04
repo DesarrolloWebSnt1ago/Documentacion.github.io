@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMLDoc</title>
+  </head>
+  <body>
+    <header id="header"><h1>HTML documentacion</h1></header>
+    <nav class="navbar">
+      <ul><li><a class="nav-link" href="#Etiquetas_del_head">Etiquetas del head</a></li>
+        <li><a class="nav-link" href="#Partes_del_body">Partes del body</a></li>
+        <li><a class="nav-link" href="#Barra_de_navegacion">Barra de navegacion</a></li>
+        <li><a class="nav-link" href="#Que_es_el_main">¿Que es el main?</a></li>
+        <li><a class="nav-link" href="#Footer_o_pie_de_pagina">Footer o pie de pagina</a></li>
+      </ul>
+      <i class="fa-solid fa-bars"></i>
+    </nav>
+        
+    <main class="main-doc">
+      <section class="main-section" id="Etiquetas_del_head"><header>Etiquetas del head</header>
+        <article><p>Las etiquetas del head son de las mas importantes a la hora de definir las estructura de nuestro sitio web.
+        </p><p>Estas etiquetas van colocadas dentro de la etiqueta de cierre y apertura del head. 
+        <code>Una de las etiquetas es link la cual nos permite conectar los estilos desde un archivo externo css y poder aplicarle los estilosa la pagina.</code></p>
+        <ul><li></li></ul></article>
+      </section>
+
+      <section class="main-section" id="Partes_del_body"><header>Partes del body</header>
+        <article><p>El body es el cuerpo visible de nuestro documento, en el cual nos provee de dar uso a distintas etiquetas dentro del mismo.
+        </p>Una de estas es utilizada para crear secciones dentro de la pagina llamada "seccion", de la cual se emplea otra etiqueta dentro de esta
+        que se usaria para los parrafos o textos "p", tambien existen otras para marcar texto como "mark", para escribir un tipo especifico de texto
+        como "article".<p><code>Pero aqui solo hemos nombrado algunas etiquetas posibles y de las mas importantes, sin embargo aun no he nombrado las que 
+          realmente crean la estructura a nivel macro de la pagina, y con estructura me refiero con etiquetas que engloban las anteriores, como un contenedor padre. 
+          Estas son: header, nav, main, aside y footer, en ese orden de arriba hacia abajo irian ubicadas dentro del body.</code></p>
+        <ul><li></li></ul></article>
+      </section>
+
+      <section class="main-section" id="Barra_de_navegacion"><header>Barra de navegacion</header>
+        <article><p>La barra de navegacion es parte del encabezado de nuestra pagina web, en la cual estaria el logo de la pagina o el nombre con la etiqueta de titulo "h1" y la barra de navegacion.</p>
+          <p>La barra contiene simplemente enlaces que tratan de que servicio ofrecemos en caso de ser una empresa o lo que seamos, puede haber un enlace de contacto, de ayuda,
+            inicio de sesion o registro.
+            <code>Estos enlaces son declarados por medio de una etiqueta que es espacialmente de enlaces, que basicamente esa etiqueta contiene un atributo denominado "href", 
+              lo cual es el encargado de poder llevarnos a una seccion o archivo externo de html que tenga informacion de nosotros.
+            </code></p>
+        <ul><li></li></ul></article>
+      </section>
+
+      <section class="main-section" id="Que_es_el_main"><header>¿Que es el main?</header>
+        <article><p>El main es una etiqueta que se utiliza dentro de la etiqueta body, en la cual va colocado todo el cuerpo
+          de informacion con las secciones, parrafos, imagenes y todo elemento de contenido.
+        </p><p><code>Hay algunas etiquetas que se usan tanto en el main como en otras partes del body, pero con excepciones, por ejemplo 
+          en el footer se utiliza una imagen indicando la ubicacion del contacto, y toda informacion de el.
+          Los contenedores son uno o los elementos mas utilizados de todo el main y a contenedores me refiero a "div", es un elemento padre
+          que contiene otros elementos hijos.
+        </code></p>
+        <ul><li></li></ul></article>
+      </section>
+
+      <section class="main-section" id="Footer_o_pie_de_pagina"><header>Footer o pie de pagina</header>
+        <article><p>En este va informacion de nuestro contacto y los medios, como numero de telefono, correo electronico,
+          quien creo la pagina, los derechos de autor, redes sociales, etc.
+        </p><p><code>Se utilizan etiquetas de imagenes "img", texto "p", subtitulos "h2", etc.</code></p>
+        <ul><li></li></ul></article>
+      </section>
+    </main>
+        
+    <footer class="footer">
+      <div class="contacto">
+        <h2>Contacto</h2>
+        <ul>
+          <li><a href="mailto:santiagoicasuriaga2@gmail.com">Email de contacto</a></li>
+        </ul>
+      </div>
+      <div class="redes">
+        <h2>Redes sociales</h2>
+        <ul>
+          <li><a href="https://www.instagram.com/sntaoi/"><img src="imgWeb/instagram.png"></a></li>
+          <li><a href="https://www.facebook.com/santiago.icasuriaga"><img src="imgWeb/facebook.png"></a></li>
+          <li><a href="https://twitter.com/Sntaoi"><img src="imgWeb/twitter.png"></a></li>
+          <li><a href="https://www.tiktok.com/@s_nir"><img src="imgWeb/tiktok.png"></a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

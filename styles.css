@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-areas: "header header"
+    "links main"
+    "footer footer";
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#header {
+    background-color: aquamarine;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    position: fixed;
+
+}
+
+.navbar {
+    grid-area: links;
+    width: auto;
+    left: -210px;
+    height: auto;
+    display: flex;
+    margin-top: 80px;
+    overflow: auto;
+    position: relative;
+}
+
+.navbar:hover {
+    grid-area: links;
+    display: flex;
+    margin-top: 80px;
+    height: auto;
+    width: auto;
+    left: auto;
+}
+
+.navbar .fa-solid {
+    display: flex;
+    justify-content: end;
+    font-size: 40px;
+    width: 20px;
+    margin: 20px;    
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    border-right: 3px solid aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar li {
+    border-top: 2px solid aquamarine;
+    padding: 10px 0px;
+    list-style: none;
+    text-align: center;
+    font-size: 1.3rem;
+    width: 100%;
+
+
+}
+
+.navbar ul li .nav-link {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.main-doc {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 30px;
+    line-height: 1.6rem;
+}
+  
+
+.main-doc .main-section {
+    width: auto;
+    
+}
+
+  
+
+.main-doc .main-section header {
+    font-size: 1.8rem;
+    border-bottom: 2px solid cyan;
+    display: inline;
+
+}
+
+  
+
+.main-doc .main-section article {
+    
+  
+
+}
+
+  
+
+.main-doc .main-section article p {
+
+  
+
+}
+
+  
+
+.main-doc .main-section article p code {
+    background-color: aliceblue;
+  
+
+}
+
+  
+
+.main-doc .main-section article ul {
+
+  
+
+}
+
+  
+
+.main-doc .main-section article ul li {
+
+  
+
+}
+
+.footer {
+    grid-area: footer;
+    background-color: gray;
+    padding: 30px;
+    color: azure;
+    display: flex;
+    width: auto;
+    height: auto;
+    
+}
+
+.footer ul {
+    display: flex;
+
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a {
+    color: azure;
+}
+
+.footer .redes ul li a img {
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+}
+
+.footer h2 {
+    border-bottom: 2px solid aquamarine;
+    display: inline;
+    
+}
+
+.footer div {
+    margin-right: 40px;
+}
+
+
+  
+
+  
+
+  
